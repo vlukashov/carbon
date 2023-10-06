@@ -82,7 +82,7 @@ export interface TableToolbarSearchProps {
    * Provide an optional hook that is called each time the input is updated
    */
   onChange?: (
-    event: '' | Partial<React.ChangeEventHandler<HTMLInputElement>>,
+    event: '' | Partial<React.ChangeEvent<HTMLInputElement>>,
     value?: string
   ) => void;
 
